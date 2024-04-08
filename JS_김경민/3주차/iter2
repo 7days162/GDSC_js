@@ -1,0 +1,8 @@
+// break 비슷한 친구인데 'continue'
+for(let m=1 ; m<=100 ; m++) {
+    if(m % 4 == 0 || m % 5 == 0) { // m 을 4, 5로 나누어 떨어진다면
+        continue; // 지금 들어온 m 안하고 다음 숫자 하겠다.
+    }
+
+    console.log(m);
+}

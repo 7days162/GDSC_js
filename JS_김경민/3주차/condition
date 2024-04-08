@@ -1,0 +1,27 @@
+showNumberInfo1(5);
+showNumberInfo2(15);
+
+// if - else if - else 표현 (함수이용)
+function showNumberInfo1(num) {
+    if(num <= 10) {
+        console.log("10 이하의 숫자입니다.");
+    } else if(num <= 20) {
+        console.log("10 초과 20 이하의 숫자입니다.");
+    } else {
+        console.log("20 초과의 숫자입니다.");
+    }
+}
+
+function showNumberInfo2(num) {
+    if(num <= 10) {
+        console.log("10 이하의 숫자입니다.");
+        return;
+    }
+
+    if(num <= 20) {
+        console.log("10 초과 20 이하의 숫자입니다.");
+        return;
+    }
+
+    console.log("20 초과의 숫자입니다.");
+}

@@ -1,0 +1,20 @@
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+
+    sayHello() {
+        console.log("안녕하세요! " + this.name + " 입니다.");
+    }
+}
+
+var person1 = new Person("김경민"); // Person class
+var person2 = new Person("허승우"); // Person class
+var person3 = new Person("김준영"); // Person class
+var person4 = new Baby("신지용"); // (Baby extends Person)
+
+
+person1.sayHello();
+person2.sayHello();
+person3.sayHello();
+person4.sayHello();
